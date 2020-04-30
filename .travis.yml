@@ -9,4 +9,4 @@ before_install:
   - pip install codecov
 #install:
 #  - pip install ".[tests]" . # install package + tests dependencies
-script: pytest # run tests
+script: python manage.py test # run tests
